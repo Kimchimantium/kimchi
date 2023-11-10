@@ -1,0 +1,59 @@
+body {
+    background-color:green;
+    color:aliceblue;
+}
+h1 {
+    color:beige;
+    font-size: 100px;
+    text-align: center;
+}
+p {
+    text-align: center;
+}
+img:hover {
+    background-color: goldenrod;
+}
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+@keyframes anti-rotate {
+    from {
+        transform: rotate(360deg);
+    }
+    to {
+        transform: rotate(0deg);
+    }
+}
+.rotate-image {
+    width: 300px;
+    animation: rotate 1s linear infinite;
+}
+.anti-rotate-image {
+    width: 300px;
+    animation: anti-rotate 1s linear infinite;
+}
+
+.rotate-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px; /* Adjust the container height as needed */
+}
+.circular {
+    border-radius: 100%;
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
+#heading {
+    color: blue;
+}
+.makeitred {
+    color:red;
+}
